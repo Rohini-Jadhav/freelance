@@ -2,10 +2,13 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - npm install
+  pre_build:
     commands:
       - cd /home/ec2-user/node_app
-      - npm install
-
   build:
     commands:
-      - npm build -- --env ${CURRENT_ENVIRONMENT}
+      - npm run build -- --env ${CURRENT_ENVIRONMENT}
