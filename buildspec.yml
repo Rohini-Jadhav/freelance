@@ -9,8 +9,7 @@ phases:
   pre_build:
     commands:
   build:
-    commands:
-    
+    commands:  
 artifacts:
     files:
       - '**/*'
