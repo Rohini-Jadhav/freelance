@@ -11,4 +11,4 @@ phases:
       
   build:
     commands:
-      - npm  build -- --env ${CURRENT_ENVIRONMENT}
+      
