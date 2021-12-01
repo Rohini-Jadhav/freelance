@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - cd /node_app
+      - cd /home/ec2-user/node_app
       - npm install
 
   build:
