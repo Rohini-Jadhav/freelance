@@ -8,7 +8,7 @@ phases:
       - npm install
   pre_build:
     commands:
-      - cd /home/ec2-user/node_app
+      - cd node_app/
   build:
     commands:
       - npm run build -- --env ${CURRENT_ENVIRONMENT}
