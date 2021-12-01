@@ -10,7 +10,8 @@ phases:
     commands:
   build:
     commands:
-  artifacts:
+    
+artifacts:
     files:
       - '**/*'
     name: s3-to-s3-latest-build.zip  
